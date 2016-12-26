@@ -19,7 +19,7 @@ import bfTerp
 
 sys.ps1 = "BF> "
 sys.ps2 = ">>> "
-banner = "pyBF REPL v1.0.20161024a.\nPress Ctrl-D to quit."
+banner = "pyBrainF REPL v1.0.20161024a.\nPress Ctrl-D to quit."
 
 class Shell(code.InteractiveConsole):
     def runsource(self, source, filename="<stdin>"):
@@ -31,4 +31,3 @@ class Shell(code.InteractiveConsole):
 
 terp = bfTerp.Terp()
 Shell().interact(banner)
-#terp.run(input(sys.ps1))
