@@ -1,0 +1,5 @@
+engines:
+  radon:
+    enabled: true
+    exclude_fingerprints:
+    - 6b34cd85a3b67283d89c501059045911
